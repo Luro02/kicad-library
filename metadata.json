@@ -23,6 +23,15 @@
     },
     "versions": [
         {
+            "version": "0.0.3",
+            "status": "stable",
+            "kicad_version": "8.0.0",
+            "download_sha256": "e16a5ac47d72d4ab55adde5e26f34138d3166d917783b406744ef329720f46cb",
+            "download_size": 393633,
+            "download_url": "https://github.com/Luro02/kicad-library/releases/download/v0.0.3/package.zip",
+            "install_size": 2156673
+        },
+        {
             "version": "0.0.2",
             "status": "stable",
             "kicad_version": "8.0.0",
