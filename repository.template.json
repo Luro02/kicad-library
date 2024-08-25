@@ -1,0 +1,12 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "description": "This is a repository so you can easily update within kicad.",
+    "description_full": "This is a repository so you can easily update within kicad.",
+    "maintainer": {
+        "name": "Luro02",
+        "contact": {
+            "web": "https://github.com/Luro02/kicad-library"
+        }
+    },
+    "name": "KiCad Library repository"
+}
