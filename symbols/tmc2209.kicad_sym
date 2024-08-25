@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "trinamic:MKS-TMC2209"
+		(property "Footprint" "extra-components:MKS-TMC2209"
 			(at 0 1.27 0)
 			(effects
 				(font

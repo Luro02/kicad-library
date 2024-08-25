@@ -169,7 +169,7 @@
 
 (uuid "c365553a-c0cc-4b78-9ded-159ad22565ed")
   )
-  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_Luro02_kicad-library/trinamic.3dshapes/MKS-TMC2209.step"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_Luro02_kicad-library/extra-components.3dshapes/MKS-TMC2209.step"
     (offset (xyz -3.8 139.2 -7.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
