@@ -10,15 +10,15 @@
     },
     "name": "KiCad Library repository",
     "packages": {
-        "sha256": "478da0bbf873474734b84a18ff4b9604b9b09345ee5da39f7d883f8ce0236d6c",
-        "update_time_utc": "2024-08-25 10:40:52",
-        "update_timestamp": 1724582452,
+        "sha256": "cf3a434344621db826869123d95e7626eed46dd248c2499073ff7a2584ac597c",
+        "update_time_utc": "2024-08-25 14:05:06",
+        "update_timestamp": 1724594706,
         "url": "https://raw.githubusercontent.com/Luro02/kicad-library/main/packages.json"
     },
     "resources": {
-        "sha256": "bb22948562660106dbb234176072d8359052d4fd718f9a193a704aee033f4569",
-        "update_time_utc": "2024-08-25 10:40:52",
-        "update_timestamp": 1724582452,
-        "url": "https://github.com/Luro02/kicad-library/releases/download/v0.0.3/resources.zip"
+        "sha256": "59579ee591b0f810081ed859056763a3cb4f7b59922b04e5c693a87462a1e064",
+        "update_time_utc": "2024-08-25 14:05:06",
+        "update_timestamp": 1724594706,
+        "url": "https://github.com/Luro02/kicad-library/releases/download/v0.0.4/resources.zip"
     }
 }
