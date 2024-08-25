@@ -29,4 +29,7 @@ distributions:
     type: BINARY
     artifacts:
       - path: 'build/package.zip'
+  resources:
+    type: BINARY
+    artifacts:
       - path: 'build/resources.zip'
