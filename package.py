@@ -18,7 +18,7 @@ DIRECTORIES_TO_ZIP = [
 
 KICAD_VERSION = "8.0.0"
 ZIP_FILE_NAME = "package.zip"
-DOWNLOAD_URL = "https://github.com/Luro02/kicad-library/releases/download/{VERSION}/{ZIP_FILE_NAME}"
+DOWNLOAD_URL = "https://github.com/Luro02/kicad-library/releases/download/v{VERSION}/{ZIP_FILE_NAME}"
 MAIN_URL = "https://raw.githubusercontent.com/Luro02/kicad-library/main/{FILE_NAME}"
 
 def create_json_string(zip_internal_metadata_json: dict):
