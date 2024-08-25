@@ -1,0 +1,31 @@
+project:
+  name: kicad-library
+  description: A library for KiCad
+  longDescription: A library for KiCad
+  links:
+    homepage: https://github.com/Luro02/kicad-library
+  authors:
+    - Luro02
+  license: CC0-1.0
+  inceptionYear: 2024
+  stereotype: NONE
+
+release:
+  github:
+    overwrite: true
+    checksums: false
+    signatures: false
+    releaseName: '{{tagName}}'
+    changelog:
+      formatted: ALWAYS
+      skipMergeCommits: true
+      preset: conventional-commits
+      format: '- {{commitShortHash}} {{commitTitle}}'
+      contributors:
+        enabled: false
+
+distributions:
+  helloworld:
+    type: BINARY
+    artifacts:
+      - path: 'build/package.zip'
