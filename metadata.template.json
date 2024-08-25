@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "KiCad Library",
+    "description": "This library contains symbols, footprints and 3d models that had to be imported manually or I designed myself.",
+    "description_full": "This library contains symbols, footprints and 3d models that had to be imported manually or I designed myself.",
+    "identifier": "com.github.luro02.kicad-library",
+    "type": "library",
+    "author": {
+        "name": "Luro02",
+        "contact": {
+            "web": "https://github.com/Luro02/kicad-library"
+        }
+    },
+    "maintainer": {
+        "name": "Luro02",
+        "contact": {
+            "web": "https://github.com/Luro02/kicad-library"
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "homepage": "https://github.com/Luro02/kicad-library"
+    },
+    "versions": []
+}
