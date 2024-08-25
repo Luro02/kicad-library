@@ -13,11 +13,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
       - name: Create the PCM package
         run: |
           VERSION=${{ github.event.inputs.version }}
           echo "Release tag $VERSION"
-          python3 package.py $VERSION
+          python package.py $VERSION
       - name: Release
         uses: jreleaser/release-action@v2
         with:
@@ -26,18 +29,8 @@ jobs:
         env:
           JRELEASER_PROJECT_VERSION: ${{ github.event.inputs.version }}
           JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #- name: Upload Release Asset
-      #  id: upload-release-asset
-      #  uses: actions/upload-release-asset@v1
-      #  env:
-      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #  with:
-      #    upload_url: ${{ github.event.release.upload_url }}
-      #    asset_path: ./build/package.zip
-      #    asset_name: package.zip
-      #    asset_content_type: application/zip
       - name: Commit and Push Changes to Main Branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'update metadata.json'
+          commit_message: 'update json files'
           branch: main
