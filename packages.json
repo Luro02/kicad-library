@@ -1,0 +1,48 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "KiCad Library",
+            "description": "This library contains symbols, footprints and 3d models that had to be imported manually or I designed myself.",
+            "description_full": "This library contains symbols, footprints and 3d models that had to be imported manually or I designed myself.",
+            "identifier": "com.github.luro02.kicad-library",
+            "type": "library",
+            "author": {
+                "name": "Luro02",
+                "contact": {
+                    "web": "https://github.com/Luro02/kicad-library"
+                }
+            },
+            "maintainer": {
+                "name": "Luro02",
+                "contact": {
+                    "web": "https://github.com/Luro02/kicad-library"
+                }
+            },
+            "license": "CC0-1.0",
+            "resources": {
+                "homepage": "https://github.com/Luro02/kicad-library"
+            },
+            "versions": [
+                {
+                    "version": "0.0.2",
+                    "status": "stable",
+                    "kicad_version": "8.0.0",
+                    "download_sha256": "a48f2b95f8542c48ce1a089d8aa4c840d4ba2db9cdc24148fe0c86fce77d1859",
+                    "download_size": 393632,
+                    "download_url": "https://github.com/Luro02/kicad-library/releases/download/0.0.2/package.zip",
+                    "install_size": 2156673
+                },
+                {
+                    "version": "0.0.1",
+                    "status": "stable",
+                    "kicad_version": "8.0.0",
+                    "download_sha256": "09c196712a74752a80286d955670b3a18d5cef4d05c3d582a9eedace7f23d8fe",
+                    "download_size": 389773,
+                    "download_url": "https://github.com/Luro02/kicad-library/releases/download/0.0.1/package.zip",
+                    "install_size": 2153190
+                }
+            ]
+        }
+    ]
+}

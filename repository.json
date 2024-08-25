@@ -1,0 +1,24 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "description": "This is a repository so you can easily update within kicad.",
+    "description_full": "This is a repository so you can easily update within kicad.",
+    "maintainer": {
+        "name": "Luro02",
+        "contact": {
+            "web": "https://github.com/Luro02/kicad-library"
+        }
+    },
+    "name": "KiCad Library repository",
+    "packages": {
+        "sha256": "257b4ca834927eaa7200a584a396285a8562ba33fc13d4c4badd750f0d7d45c8",
+        "update_time_utc": "2024-08-25 10:37:13",
+        "update_timestamp": 1724582233,
+        "url": "https://raw.githubusercontent.com/Luro02/kicad-library/main/packages.json"
+    },
+    "resources": {
+        "sha256": "49c5f19c61f012796a6860ff67efd620e8e348db8a2e64a6082150338bdda3c7",
+        "update_time_utc": "2024-08-25 10:37:13",
+        "update_timestamp": 1724582233,
+        "url": "https://github.com/Luro02/kicad-library/releases/download/0.0.2/resources.zip"
+    }
+}
